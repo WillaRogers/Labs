@@ -25,6 +25,7 @@ main{
 title{
     color: lightblue;
 }
+/*Your class values are capital Jellies, Whales, Creatures, so your selectors need to be the same*/
 .jellies, .whales, .creatures{
     background-color: rgb(19,107,114);
     padding: 1rem;
@@ -33,6 +34,7 @@ title{
     vertical-align: top;
 
 }
+/*Your class values are capital Jellies, Whales, Creatures, so your selectors need to be the same*/
 .jellies{
     width: 29%;
 
@@ -41,9 +43,11 @@ img{
     max-width: 100%;
 
 }
+/*Your class values are capital Jellies, Whales, Creatures, so your selectors need to be the same*/
 .whales{
     width: 46%;
 }
+/*Your class values are capital Jellies, Whales, Creatures, so your selectors need to be the same*/
 .creatures{
     width: 29%;
 }
