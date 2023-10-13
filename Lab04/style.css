@@ -1,8 +1,8 @@
 body{
     background-color:rgb(6,6,56);
-color:rgb(255,255,255);
-font-family: 'Courier New', Courier, monospace;
-margin:0;
+    color:rgb(255,255,255);
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
 }
 header{
     background-color: rgb(25,64,100);
@@ -25,7 +25,7 @@ main{
 title{
     color: lightblue;
 }
-/*Your class values are capital Jellies, Whales, Creatures, so your selectors need to be the same*/
+/*Change to .Jellies, .Whales, .Creatures*/
 .jellies, .whales, .creatures{
     background-color: rgb(19,107,114);
     padding: 1rem;
@@ -34,7 +34,7 @@ title{
     vertical-align: top;
 
 }
-/*Your class values are capital Jellies, Whales, Creatures, so your selectors need to be the same*/
+/*Change to .Jellies*/
 .jellies{
     width: 29%;
 
@@ -43,11 +43,11 @@ img{
     max-width: 100%;
 
 }
-/*Your class values are capital Jellies, Whales, Creatures, so your selectors need to be the same*/
+/*Change to .Whales*/
 .whales{
     width: 46%;
 }
-/*Your class values are capital Jellies, Whales, Creatures, so your selectors need to be the same*/
+/*Change to .Creatures*/
 .creatures{
     width: 29%;
 }
