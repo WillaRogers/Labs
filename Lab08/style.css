@@ -81,7 +81,7 @@ section>h2{
 article{
     display: none;
 }
-article.show{display: block;}
+article.show {display: block;}
 section span{
     transform: rotate(180deg);
 }
