@@ -41,7 +41,7 @@ nav>a:hover{
 header{
     display: flex;
     flex-wrap: wrap;
-    /*Missing justify-content:center;*/
+    justify-content:center;
 }
 nav{
     flex-basis: 100%;
@@ -55,13 +55,13 @@ main img{
     margin: .5rem;
 
 }
-.about-me {
+.about-me h2{
     background-image:url(images/me.jpeg);
     background-size: cover;
     padding: 10rem 0 10rem 4rem;
     text-shadow: 2px 2px 2px #0000008f;
 }
-.gallery {
+.gallery h2{
     background-color: rgb(245, 245, 245);
     color: rgb(15, 15, 46);
     padding: 2rem 4rem;
@@ -75,12 +75,39 @@ main img{
         flex-wrap: nowrap;
         justify-content: flex-end;
     }
+    .about-me{
+        display: flex;
+
+    }
+    .about-me h2{
+        flex-basis: 40%;
+        background-position: Center;
+    }
+    .about-me div
+{
+    flex-basis: 50%;
+    margin-left: 2rem;
+}
+h2{
+    padding-left: 4rem;
+}
+
     header>img{
         flex-direction: row-reverse;
         align-content: flex-start;
     }
-    /*I believe you are missing some CSS for the gallery here. Double check the instructions*/
-
+    .gallery{
+        display: flex;
+        flex-flow: column wrap;
+        max-height: 78rem;
+    }
+    .gallery h2{
+        margin: .5rem;
+    }
+    .gallery img{
+        width: 32%;
+        margin: .5rem;
+    }
 }
 
 @media (min-width: 1500px) {
