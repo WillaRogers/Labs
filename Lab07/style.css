@@ -41,6 +41,7 @@ nav>a:hover{
 header{
     display: flex;
     flex-wrap: wrap;
+    /*Missing justify-content:center;*/
 }
 nav{
     flex-basis: 100%;
@@ -78,6 +79,7 @@ main img{
         flex-direction: row-reverse;
         align-content: flex-start;
     }
+    /*I believe you are missing some CSS for the gallery here. Double check the instructions*/
 
 }
 
