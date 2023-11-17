@@ -106,6 +106,7 @@ section:nth-child(2){
     display: block;
 
 }
+}
 @media(min-width:1100px){
     body{
         display: grid;
@@ -137,8 +138,3 @@ section:nth-child(2){
         text-align: right;
     }
 }
-
-
-
-
-
