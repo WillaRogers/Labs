@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brunch</title>
+    <link rel="stylesheet" href="styles.css">
+ 
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Brunch</h1>
+            <img src="Images15/logo.svg" alt="Brunch">
+            <nav>
+                <a href="about.html">About</a>
+               <a href="menu.html">Menu</a>
+               <a href="order.html">Order</a>
+               </nav>
+        </header>
+        <main>
+            <section class=order>
+                <form>
+                    <h2>Place Order</h2>
+    <div class="cloner">
+        <div class="container"></div>
+       <template>
+        <div class="row">
+       
+
+        <label for="coffee-select">Coffee</label>
+        <select>
+            <option value="">--Please choose an option--</option>
+      <option value="drip-coffee">Drip Coffee</option>
+      <option value="americano">Americano</option>
+      <option value="cappuccino">Cappuccino</option>
+      <option value="latte">Latte</option>
+      <option value="chai">Chai</option>
+      <option value="matchaa">Matcha</option>
+      <option value="cold-brew">Cold Brew</option>
+      <option value="hot-chocolate">Hot Chocolate</option>
+      <option value="shot-in-the-dark">Shot in the Dark</option>
+      <option value="cafe-con-miel">Cafe con Meil</option>
+      <option value="breve">Breve</option>
+      <option value="dirty-chai">Dirty Chai</option>
+      <option value="peppermint-mocha">Peppermint Mocha</option>
+      <option value="affogato">Affogato</option>
+      </select>
+
+        <label for="size-select">Size</label>
+        <select>
+        <option value="">--Please choose an option--</option>
+      <option value="small">Small 12oz.</option>
+      <option value="large">Large 120z.</option>
+      </select>
+      
+    
+    
+        <label for="quantity-select">Quantity</label>
+        <input type="number" value="1" min="1" max="10">
+        <a class="delete" onclick="removeRow(event)">x</a>
+</div>
+    </template>
+
+    <div>
+        <a class="add-button">+ Add Coffee</a>    
+    </div>
+</div>
+
+
+
+<div class="cloner">
+    <div class="container"></div>
+   <template>
+    <div class="row">
+    
+   
+    <label for="waffle-select">Waffle</label>
+    <input type="number" value="1" min="1" max="10">
+
+    <label for="topping-select">Topping</label>
+    <select>
+        <option value="">--Please choose an option--</option>
+        <option value="cream-cheese">Cream Cheese</option>
+        <option value="blueberry">Blueberry Pie Filling</option>
+        <option value="strawberry">Strawberry Pie Filling</option>
+        <option value="yogurt">Yogurt</option>
+        <option value="berries">Fresh Berries</option>
+        <option value="syrup">Syrup</option>
+        <option value="butter">Butter</option>
+        <option value="sugar">Powdered Sugar</option>
+        <option value="oreo">Oreo Crumble</option>
+        <option value="graham-cracker">Graham Cracker Crumble </option>
+        <option value="granola">Granola</option>
+        <option value="ham">Ham</option>
+        <option value="cheddar"> Cheddar</option>
+        <option value="lettuce">Lettuce </option>
+        <option value="Herb Goat Cheese">herb-goat-cheese</option>
+        <option value="peanut-butter">Peanut Butter</option>
+        <option value="marshmallow"> Marshmallow Fluff</option>
+            <option value="raspberry">Raspberry</option>
+            <option value="banana"> Banana</option>
+            <option value="pecan">  Pecans</option>
+            </select>
+          
+          
+            <label for="topping-select">Topping 2</label>
+            <select>
+            <option value="">--Please choose an option--</option>
+            <option value="cream-cheese">Cream Cheese</option>
+            <option value="blueberry">Blueberry Pie Filling</option>
+            <option value="strawberry">Strawberry Pie Filling</option>
+            <option value="yogurt">Yogurt</option>
+            <option value="berries">Fresh Berries</option>
+            <option value="syrup">Syrup</option>
+            <option value="butter">Butter</option>
+            <option value="sugar">Powdered Sugar</option>
+            <option value="oreo">Oreo Crumble</option>
+            <option value="graham-cracker">Graham Cracker Crumble </option>
+            <option value="granola">Granola</option>
+            <option value="ham">Ham</option>
+            <option value="cheddar"> Cheddar</option>
+            <option value="lettuce">Lettuce </option>
+            <option value="Herb Goat Cheese">herb-goat-cheese</option>
+            <option value="peanut-butter">Peanut Butter</option>
+            <option value="marshmallow"> Marshmallow Fluff</option>
+                <option value="raspberry">Raspberry</option>
+                <option value="banana"> Banana</option>
+                <option value="pecan">  Pecans</option>
+
+</select>
+<a class="delete" onclick="removeRow(event)">x</a>
+</div>
+    </template>
+    <div>
+        <a class="add-button">+ Add Waffle</a>
+        </div>
+</div>
+<input type="submit" value="order">
+
+            </form>
+        </section>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    </main>
+    <footer>
+        <div>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+        </div>
+        <a>Brunch<br>105 Garfield Ave<br>Eau Claire WI 54701</a>
+        <a href="https://www.google.com/maps/dir//University+of+Wisconsin%E2%80%93Eau+Claire,+105+Garfield+Ave,+Eau+Claire,+WI+54701/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x87f8bda1c1f99121:0x8e4f27fb702ea176?sa=X&ved=2ahUKEwjLp77P8rSCAxVsk2oFHXPQCZsQ48ADegQIGxAA">Link</a>
+        <div class=social>
+            <a>
+                <img src="Images15/facebook.svg" alt="Facebook"></a>
+                <url href=" https://fb.com/"></url>
+            <a> <img src="Images15/instagram.svg" alt="Instagram"></a>
+                <url href=" https://instagram.com/"></url>
+        </div>
+    </footer>
+</body>
+</html>
