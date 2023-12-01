@@ -25,6 +25,7 @@ thead>tr:first-child>th
 table{
     border-spacing: 0;
 }
+/*Selector below should be "tbody th"*/
 tbody{
     background-color: #023802;
 }
