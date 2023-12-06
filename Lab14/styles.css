@@ -28,6 +28,12 @@ nav>a:hover{
     background-color: #d9ba6c;
     color: #161d2d;
 }
+/*Missing 
+.sidenav{
+    background-color:#374a76;
+    padding:.5rem 1rem;
+}
+*/
 .sidenav>a{
     background-color: #fae2c0;
     color: #0f0f0f;
@@ -40,6 +46,7 @@ nav>a:hover{
 {
 opacity: .8;
 }
+/*The next selector should be section not main*/
 main{
     padding: 1rem;
     margin: 1rem 0;
@@ -61,9 +68,11 @@ section:nth-child(2) {
 section>img{
     max-height: 10rem;
     grid-row-start: 1;
+    /*Row-end should be 4*/
     grid-row-end: 2;
     grid-column-start:1;
-    grid-column-end:3;
+    /*Column end should be 2*/
+    grid-column-end:2;
 
 
 }
@@ -72,7 +81,7 @@ h4{
     grid-row-end: 3;
     grid-column-start:2;
     grid-column-end:3;
-  margin:0;
+    margin:0;
 
 }
 h3{
@@ -82,6 +91,14 @@ h3{
     grid-column-end:3;
 
 }
+/*You need the grid properties and values for the section p too
+p{
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start:;
+    grid-column-end:;
+}
+*/
 
 .ragnarok section:nth-child(5) {
     display: block;
