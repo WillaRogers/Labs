@@ -1,0 +1,122 @@
+section img{
+    width: 100%;
+}
+body{
+    background-color: #faebd7;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1{
+    color: brown;
+    font-family: sans-serif;
+}
+h2{
+    color: brown;
+}
+nav>a{
+    color:  brown;
+    border: 1px solid #d9ba6c;
+    text-decoration: none;
+    padding:1rem;
+    font-weight: 800;
+    display: inline-block;
+    margin: 1rem 3rem 3rem 2rem;
+
+}
+nav>a:hover{
+    border-color: transparent;
+    background-color: #d9ba6c;
+    color: #161d2d;
+    animation-play-state: paused;
+}
+
+
+   header img{
+    width: 10%;
+    float: right;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    background-size: auto;
+   }
+   .coffee{
+    z-index: 1;
+    animation: coffee 2s linear infinite alternate;
+   }
+   @keyframes coffee  {
+    from{
+        transform: rotate(-10deg);
+
+    }
+    
+        to{
+      
+        transform: rotate(30deg);
+    }
+}
+coffee:after{
+    z-index: 1;
+    transform-origin: center left;
+
+}
+
+    footer{
+        padding: 1rem 0;
+        background-image: url(Images18/coffee-beans-background-ozgurcankaya.jpg);
+        color: white;
+        font-size: larger;
+        text-align: center;
+        padding-top: 3rem;
+   
+    }
+    .history{
+        padding-bottom: 6rem;
+    }
+
+ 
+    @media(min-width:1000px){
+
+
+.column {
+ 
+    padding: 5px;
+    display: grid;
+        grid-template-columns: 1/3 1/3 1/3;
+        grid-template-rows: auto;
+       
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .cappuccino{
+    grid-column-start:1;
+    grid-column-end:2;
+  }
+  .americano {
+    grid-column-start:2;
+    grid-column-end:4;
+
+  }
+  .espresso{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .mocha{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .macchiato{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+  }
+}
