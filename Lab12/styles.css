@@ -44,7 +44,7 @@ border: 3px solid yellowgreen;
 padding: .5rem;
 border-radius: .25rem;  }
 
-input [type=color]{
+input[type=color]{
 width: 4rem;
 height: 4rem;
 border-radius: 2rem;
