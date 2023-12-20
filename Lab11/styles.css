@@ -27,7 +27,8 @@ header>nav>a{
     text-decoration: none;
     padding: 2rem;
     text-align: center;
-    /*Add display:inline-block; so the navigation links don't overlap*/
+    display: inline-block;
+   
     
 }
 header>nav{
